@@ -1,3 +1,4 @@
+import 'package:counter_app/cart_page.dart';
 import 'package:flutter/material.dart';
 
 
@@ -32,8 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Dashbordpage(),
+      home: CartPage(),
     );
   }
 }
-
